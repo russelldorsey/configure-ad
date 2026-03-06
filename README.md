@@ -45,7 +45,7 @@ When the role finishes installing, in Server Manager, click Promote this server 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To create a Domain Admin user in Windows Server 2025 VM, first sign in to the server with an account that already has domain administrative rights (for example, mydomain.com\labuser). Open Server Manager, click Tools, and then select Active Directory Users and Computers. In the console, expand your domain and choose the Users container or the organizational unit (for example, _ADMINS) where you want to create the account.
 </p>
 <br />
 
