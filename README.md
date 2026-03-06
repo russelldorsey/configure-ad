@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Promote Server as DC/Setup New Forest
 - Create New Organizational Unit
 - Create Domain Admin User Within Domain
-- Join Client-1 to your domain
+- Join Client-1 to Domain
 
 <h2>Deployment and Configuration Steps</h2>
 
