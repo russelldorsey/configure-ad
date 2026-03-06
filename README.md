@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Install Active Directory Domain Services
-- Step 2
+- Promote Server as DC/Setup New Forest
 - Step 3
 - Step 4
 
