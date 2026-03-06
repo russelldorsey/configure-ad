@@ -63,7 +63,7 @@ After the user account is created, to add the account to Domain Admins, locate t
 <br />
 
 <p>
-<img width="552" height="422" alt="Screenshot 2026-03-05 191107" src="https://github.com/user-attachments/assets/ac67d750-21c7-4bdd-8407-8b74a29bb165" />
+<img width="551" height="281" alt="Screenshot 2026-03-05 194334" src="https://github.com/user-attachments/assets/d0b2d6ea-a6b1-4fee-bca6-f830819884b1" />
 </p>
 <p>
 To join Client-1 to your domain (hosted on a Windows Server 2025 Datacenter: Azure Edition domain controller), first make sure Client-1 can reach the domain controller on the network and is using the domain controller’s IP address for DNS (domain joins commonly fail if DNS isn’t configured to point to the DC). On Client-1, open Control Panel, go to System and Security, then System, and select Change settings (or open System Properties). On the Computer Name tab, click Change, select Domain, and type your domain name (for example, company.local or mydomain.com), then click OK. When prompted, enter the username and password of an account that has permission to join computers to the domain (such as a Domain Admin like mydomain.com\jane_admin), then click OK and accept the confirmation message that you’ve joined the domain. Finally, restart Client-1 to complete the process. After the reboot, you can sign in using a domain account, such as DOMAIN\username or mydomain.com\jane_admin.
