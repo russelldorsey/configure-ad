@@ -42,7 +42,7 @@ When the role finishes installing, in Server Manager, click Promote this server 
 <br />
 
 <p>
-<img width="477" height="359" alt="Screenshot 2026-03-05 174821" src="https://github.com/user-attachments/assets/f2922163-d300-44b9-9a7d-e4988ef650b8" />
+<img width="479" height="358" alt="Screenshot 2026-03-05 182710" src="https://github.com/user-attachments/assets/1d473d9a-85fd-4316-9de5-92766ff13261" />
 </p>
 <p>
 To create a new Organizational Unit (OU) on a Windows Server 2025 VM controller, sign in with a domain admin account and open Server Manager. Select Tools, then open Active Directory Users and Computers. In the left pane, expand your domain name, then right-click the domain (or right-click an existing OU if you want to create a sub-OU). Choose New > Organizational Unit, type a clear OU name (for example, IT, HR, Workstations, _EMPLOYEES, or _ADMINS), and leave Protect container from accidental deletion enabled unless you have a specific reason to turn it off. Click OK to create the OU. OUs are used to organize users and computers, making it easier to apply Group Policy and delegate administrative control to specific teams.
