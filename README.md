@@ -26,7 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Install Active Directory Domain Services
 - Promote Server as DC/Setup New Forest
-- Step 3
+- Create Domain Admin User Within Domain
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="830" height="434" alt="Screenshot 2026-03-05 171721" src="https://github.com/user-attachments/assets/445519e9-39f9-4396-ab5b-824baae59362" />
 </p>
 <p>
-To install Active Directory Domain Services (AD DS) on the Windows Server 2025  VM, first sign in to the server with a local administrator account and make sure the VM has a static private IP in Azure (so the domain controller’s address doesn’t change). Open Server Manager, click Manage, then select Add Roles and Features. Choose Role-based or feature-based installation, select your server, and on the Server Roles page, check Active Directory Domain Services. When prompted, click Add Features, then click Next to continue through the wizard, and click Install.
+To install Active Directory Domain Services (AD DS) on the Windows Server 2025 VM, first sign in to the server with a local administrator account and make sure the VM has a static private IP in Azure (so the domain controller’s address doesn’t change). Open Server Manager, click Manage, then select Add Roles and Features. Choose Role-based or feature-based installation, select your server, and on the Server Roles page, check Active Directory Domain Services. When prompted, click Add Features, then click Next to continue through the wizard, and click Install.
 </p>
 <br />
 <p>
