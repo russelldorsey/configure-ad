@@ -42,10 +42,12 @@ When the role finishes installing, in Server Manager, click Promote this server 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="477" height="359" alt="Screenshot 2026-03-05 174821" src="https://github.com/user-attachments/assets/f2922163-d300-44b9-9a7d-e4988ef650b8" />
 </p>
 <p>
-To create a Domain Admin user in Windows Server 2025 VM, first sign in to the server with an account that already has domain administrative rights (for example, mydomain.com\labuser). Open Server Manager, click Tools, and then select Active Directory Users and Computers. In the console, expand your domain and choose the Users container or the organizational unit (for example, _ADMINS) where you want to create the account.
+To create a new Organizational Unit (OU) on a Windows Server 2025 VM controller, sign in with a domain admin account and open Server Manager. Select Tools, then open Active Directory Users and Computers. In the left pane, expand your domain name, then right-click the domain (or right-click an existing OU if you want to create a sub-OU). Choose New > Organizational Unit, type a clear OU name (for example, IT, HR, Workstations, _EMPLOYEES, or _ADMINS), and leave Protect container from accidental deletion enabled unless you have a specific reason to turn it off. Click OK to create the OU. OUs are used to organize users and computers, making it easier to apply Group Policy and delegate administrative control to specific teams.
+
+To create a Domain Admin user in Windows Server 2025 VM, remain signed in to the server with an account that already has domain administrative rights (for example, mydomain.com\labuser). Open Server Manager, click Tools, and then select Active Directory Users and Computers if it is not already open. In the console, expand your domain and choose the Users container or the organizational unit (example, _ADMINS) where you want to create the account. Then select Action, click New, and choose User. Enter the new user’s name, logon name (example, jane_admin), and password, then click Next and Finish to complete the wizard and create the account.
 </p>
 <br />
 
