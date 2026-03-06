@@ -21,8 +21,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Install Active Directory Domain Services
 - Promote Server as DC/Setup New Forest
+- Create New Organizational Unit
 - Create Domain Admin User Within Domain
-- Step 4
 
 <h2>Deployment and Configuration Steps</h2>
 
