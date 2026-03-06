@@ -42,7 +42,7 @@ To install Active Directory Domain Services (AD DS) on the Windows Server 2025  
 <img width="830" height="437" alt="Screenshot 2026-03-05 171200" src="https://github.com/user-attachments/assets/73734080-fab3-43d4-b6e0-df476dc5554f" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When the role finishes installing, in Server Manager, click Promote this server to a domain controller to start the configuration wizard. In the promotion wizard, choose Add a new forest if this is your first domain controller, then enter a domain name (for example, company.local or mydomain.com). Leave DNS enabled (most labs install DNS on the domain controller), set a Directory Services Restore Mode (DSRM) password, and click Next to continue through the remaining pages (NetBIOS name, paths, prerequisites). Click Install to begin promotion. After the reboot, sign in using the domain (for example, DOMAIN\Administrator or mydomain.com\labuser) and verify AD DS is working by opening Tools in Server Manager and launching Active Directory Users and Computers.
 </p>
 <br />
 
