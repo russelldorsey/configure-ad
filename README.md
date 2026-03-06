@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="959" height="539" alt="Screenshot 2026-03-05 165407" src="https://github.com/user-attachments/assets/ee348a4c-5667-4e79-abd6-033da1acc736" />
 </p>
 <p>
-To install Active Directory Domain Services (AD DS) on the Windows Server 2025  VM, first sign in to the server with a local administrator account and make sure the VM has a static private IP in Azure (so the domain controller’s address doesn’t change). Open Server Manager, click Manage, then select Add Roles and Features. Choose Role-based or feature-based installation, select your server, and on the Server Roles page, check Active Directory Domain Services. When prompted, click Add Features, then continue through the wizard and click Install.
+To install Active Directory Domain Services (AD DS) on the Windows Server 2025  VM, first sign in to the server with a local administrator account and make sure the VM has a static private IP in Azure (so the domain controller’s address doesn’t change). Open Server Manager, click Manage, then select Add Roles and Features. Choose Role-based or feature-based installation, select your server, and on the Server Roles page, check Active Directory Domain Services. When prompted, click Add Features, then click Next to continue through the wizard, and click Install.
 </p>
 <br />
 
