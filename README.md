@@ -75,5 +75,7 @@ To join Client-1 to your domain (hosted on a Windows Server 2025 Datacenter: Azu
 </p>
 <p>
 To set up Remote Desktop for non-administrative users, log in to Client-1 using a local administrator account such as mydomain.com\jane_admin. Once logged in, open the Start menu and search for Settings. In the Settings window, search for Remote Desktop settings and open it. On the Remote Desktop settings page, go to the User accounts section, click Select users that can remotely access this PC, then click Add. In the Enter the object names to select field, type Domain Users, then click Check Names and click OK. Continue clicking OK to close the windows. After this setting is enabled, users in the Domain Users group can sign in to Client-1 via Remote Desktop even without administrative privileges.
+
+If your user account is in Active Directory, it is often easier to add a domain security group rather than add one person at a time. For example, you can add a group such as Remote Desktop Users or another domain group to the local Remote Desktop Users group on Client-1. This keeps permissions easier to manage later. After adding the user or group, have the user connect with Remote Desktop using their domain credentials, usually in the format DOMAIN\username or username@domain.
 </p>
 <br />
